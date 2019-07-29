@@ -7,7 +7,7 @@ function authentication(user, password) {
 
 }
 
-function loadXML(url, callback, auth) { 
+function loadXMLAuth(url, callback, auth) { 
 
   var xmlHTTP = new XMLHttpRequest();
 
